@@ -5,7 +5,7 @@ if res=="n":
     str=input("Input string(can handle capital, small, space, special characters): ")
     sft=int(input("Enter Shift (<+shift> for encode, <-shift for decode>): "))
 else:
-    with open(test_cases.txt) as f:
+    with open("test_cases.txt") as f:
         str=f.read()
     sft= 3
 #Modular arithematic is used for cyclicity of functions
@@ -14,5 +14,5 @@ def encoding(x):
     if x.islower() : return chr(97+(ord(x)-97+sft)%26)
     else: return x
 enc="".join(map(encoding, str))
-print("Original string is:\n", str)
-print("Encoded Result is:\n ", enc)
+print("Original string is:\n\ny", str)
+print("\n\nEncoded Result is:\n ", enc)
