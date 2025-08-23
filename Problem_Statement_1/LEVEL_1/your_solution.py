@@ -1,5 +1,6 @@
 #PS 1, Caesar Cipher
 #Test case or custom input
+print("Warning, pls cd to LEVEL_1 folder before running this code")
 res=input("Do you want to proceed with test case(a poem) with shift 3?(y or anything), or custom inut(n or N) (y/n)").lower()
 if res=="n":
     str=input("Input string(can handle capital, small, space, special characters): ")
@@ -15,4 +16,4 @@ def encoding(x):
     else: return x
 enc="".join(map(encoding, str))
 print("Original string is:\n\ny", str)
-print("\n\nEncoded Result is:\n ", enc)
+print("\n\nEncoded Result is:\n", enc)

@@ -18,11 +18,5 @@
 ### **New Concepts I Discovered**
 - **[Concept Name]:** [ord() and chr()]
 
-### **How I Applied These Concepts**
-[Explain how you used the concepts to solve the problem]
-
 ### **Real-World Connections**
-[Where might you see this problem or similar concepts in real applications?]
-
-
-
+[its a begenning into cybersecurity and encryption.]
