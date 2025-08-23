@@ -15,5 +15,5 @@ def encoding(x):
     if x.islower() : return chr(97+(ord(x)-97+sft)%26)
     else: return x
 enc="".join(map(encoding, str))
-print("Original string is:\n\ny", str)
-print("\n\nEncoded Result is:\n", enc)
+print(f"Original string is:\n\ny{str}")
+print(f"\n\nEncoded Result is:\n{enc}")
