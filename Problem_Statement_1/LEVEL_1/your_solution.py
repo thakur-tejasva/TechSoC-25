@@ -12,7 +12,7 @@ else:
 #Modular arithematic is used for cyclicity of functions
 def encoding(x):
     if x.isupper() : return chr(65+(ord(x)-65+sft)%26)
-    if x.islower() : return chr(97+(ord(x)-97+sft)%26)
+    elif x.islower() : return chr(97+(ord(x)-97+sft)%26)
     else: return x
 enc="".join(map(encoding, str))
 print(f"Original string is:\n\n{str}")

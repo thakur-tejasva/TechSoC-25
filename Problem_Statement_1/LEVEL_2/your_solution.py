@@ -13,7 +13,7 @@ else:#Default test case
 
 def encoding(x, sft):#function from ps1 slightly modified
     if x.isupper() : return chr(65+(ord(x)-65+sft)%26)
-    if x.islower() : return chr(97+(ord(x)-97+sft)%26)
+    elif x.islower() : return chr(97+(ord(x)-97+sft)%26)
     else: return x
 
 def decoded(sft): return "".join(encoding(x, sft) for x in str)#slightly modified from ps1
