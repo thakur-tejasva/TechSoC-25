@@ -377,6 +377,7 @@ heart
 heat
 heavy
 hell
+hello
 help
 her
 here
